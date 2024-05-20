@@ -7,4 +7,5 @@ include_directories(.)
 include_directories(Ponteiros)
 
 add_executable(Aulas
-        Ponteiros/ponteiros1.0.c)
+        Ponteiros/ponteiros1.0.c
+        Ponteiros/ponteiros2.0.c)
