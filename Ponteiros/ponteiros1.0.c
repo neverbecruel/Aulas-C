@@ -4,6 +4,7 @@
 //---------------------------------------------------------------- %s => Strigs -cadeias de caracteres
 //---------------------------------------------------------------- %f => números com ponto flutuantes -floats
 
+
 // PONTEIROS
 
 // Os ponteiros apontam para o endereço de memoria de uma variavel.
@@ -45,7 +46,7 @@ int main(){
 
    for (int i = 0; i < 10; i++){
        printf("%d : %d \n", i, *(ptrlista+i));
-       /* Vamos entender o que aconteceu aqui: A iteração é baseada na expressão --*(ptrlista+i)--Para entender essa
+       /* Vamos entender o que aconteceu aqui: A iteração é baseada na expressão --*(ptrlista+i)-- Para entender essa
        expressão, vamos quebra-la em algumas partes...
 
             ptrlista-   é endereço de memoria do primero elemento da lista -veja a linha 13 e 14
@@ -54,17 +55,7 @@ int main(){
 
       Sabendo que os elementos de uma array são armazenados sequencialmente, a cada iteração do loop, o endereço do próximo
       elemento da array é pego e depois é imprimido o seu valor..*/
-
    }
-
-
-
-
-
-
-
-
-
 
     return 0;
 };
