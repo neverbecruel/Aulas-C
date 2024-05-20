@@ -41,6 +41,19 @@ int main(){
    int *ptrlista = lista;
    printf("%p \n", ptrlista); // 000000e0b9dffc10
 
+   for (int i = 0; i < 10; i++){
+       printf("%d : %d \n", i, *(ptrlista+i));
+       /* Vamos entender o que aconteceu aqui: A iteração é baseada na expressão --*(ptrlista+i)--Para entender essa
+       expressão, vamos quebra-la em algumas partes...
+
+            ptrlista-   é endereço de memoria do primero elemento da lista -veja a linha 13 e 14
+            i-          é o incremento do laço de repetição
+            *-          se refere ao valor que o endereço de memoria armazena -veja a linha 16 e 17
+
+      Sabendo que os elementos de uma array são armazenados sequencialmente, a cada iteração do loop, o endereço do próximo
+      elemento da array é pego e depois é imprimido o seu valor..*/
+
+   }
 
 
 
