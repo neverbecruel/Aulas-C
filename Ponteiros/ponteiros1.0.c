@@ -27,10 +27,12 @@ int main(){
    printf("%d \n", num);\
 
 
-   // PONTEIROS E ARRAYS
-   // O nome de um array é um ponteiro para o primeiro elemento do array. Isso significa que "lista" é equivalente a &lista[0].
-   // De outro modo, podemos dizer que o nome de um array é um ponteiro que aponta para o endereço de memoria do
-   //primeiro elemento da própria array
+   /* PONTEIROS E ARRAYS
+   O nome de um array é um ponteiro para o primeiro elemento do array. Isso significa que "lista" é equivalente a
+   &lista[0].
+   De outro modo, podemos dizer que o nome de um array é um ponteiro que aponta para o endereço de memoria
+   do primeiro elemento da própria array
+    */
 
    int lista[10] = {1, 2 ,3, 4, 5, 6, 7, 8, 9};
    // Observe que o valor de &lista[0] e lista são iguais
