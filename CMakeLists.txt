@@ -6,9 +6,9 @@ set(CMAKE_C_STANDARD 11)
 include_directories(.)
 include_directories(Ponteiros)
 
-add_executable(Aulas
+add_executable(Ponteiro1
         Ponteiros/ponteiros1.0.c
 )
-add_executable(Aulas1
+add_executable(Ponteiro2
         Ponteiros/ponteiros2.0.c
 )
