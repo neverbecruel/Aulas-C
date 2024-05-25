@@ -20,9 +20,9 @@ void printArray(int *arr, int size) {
 
 int main() {
 
-    int arr[5] = {0, 1, 2, 3, 4, };
+    int arr[5] = {0, 1, 2, 3, 4,};
     int size = sizeof(arr) / sizeof(arr[0]);
-    //sizeof(arr) / sizeof(arr[0]) => razão entre o tamanho de UM elemento e o tamanho da array -quantidade de elementos
+//sizeof(arr) / sizeof(arr[0]) => razão entre o tamanho de UM elemento e o tamanho da array -quantidade de elementos
 
     printArray(arr, size);
 
