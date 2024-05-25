@@ -58,15 +58,6 @@ build CMakeFiles/Aulas.dir/Ponteiros/ponteiros1.0.c.obj: C_COMPILER__Aulas_unsca
   TARGET_COMPILE_PDB = CMakeFiles\Aulas.dir\
   TARGET_PDB = Aulas.pdb
 
-build CMakeFiles/Aulas.dir/Ponteiros/ponteiros2.0.c.obj: C_COMPILER__Aulas_unscanned_Debug D$:/projetos/C/Aulas/Ponteiros/ponteiros2.0.c || cmake_object_order_depends_target_Aulas
-  DEP_FILE = CMakeFiles\Aulas.dir\Ponteiros\ponteiros2.0.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -ID:/projetos/C/Aulas/. -ID:/projetos/C/Aulas/Ponteiros
-  OBJECT_DIR = CMakeFiles\Aulas.dir
-  OBJECT_FILE_DIR = CMakeFiles\Aulas.dir\Ponteiros
-  TARGET_COMPILE_PDB = CMakeFiles\Aulas.dir\
-  TARGET_PDB = Aulas.pdb
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Aulas
@@ -75,7 +66,7 @@ build CMakeFiles/Aulas.dir/Ponteiros/ponteiros2.0.c.obj: C_COMPILER__Aulas_unsca
 #############################################
 # Link the executable Aulas.exe
 
-build Aulas.exe: C_EXECUTABLE_LINKER__Aulas_Debug CMakeFiles/Aulas.dir/Ponteiros/ponteiros1.0.c.obj CMakeFiles/Aulas.dir/Ponteiros/ponteiros2.0.c.obj
+build Aulas.exe: C_EXECUTABLE_LINKER__Aulas_Debug CMakeFiles/Aulas.dir/Ponteiros/ponteiros1.0.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Aulas.dir
@@ -85,6 +76,43 @@ build Aulas.exe: C_EXECUTABLE_LINKER__Aulas_Debug CMakeFiles/Aulas.dir/Ponteiros
   TARGET_FILE = Aulas.exe
   TARGET_IMPLIB = libAulas.dll.a
   TARGET_PDB = Aulas.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Aulas1
+
+
+#############################################
+# Order-only phony target for Aulas1
+
+build cmake_object_order_depends_target_Aulas1: phony || CMakeFiles/Aulas1.dir
+
+build CMakeFiles/Aulas1.dir/Ponteiros/ponteiros2.0.c.obj: C_COMPILER__Aulas1_unscanned_Debug D$:/projetos/C/Aulas/Ponteiros/ponteiros2.0.c || cmake_object_order_depends_target_Aulas1
+  DEP_FILE = CMakeFiles\Aulas1.dir\Ponteiros\ponteiros2.0.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -ID:/projetos/C/Aulas/. -ID:/projetos/C/Aulas/Ponteiros
+  OBJECT_DIR = CMakeFiles\Aulas1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Aulas1.dir\Ponteiros
+  TARGET_COMPILE_PDB = CMakeFiles\Aulas1.dir\
+  TARGET_PDB = Aulas1.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Aulas1
+
+
+#############################################
+# Link the executable Aulas1.exe
+
+build Aulas1.exe: C_EXECUTABLE_LINKER__Aulas1_Debug CMakeFiles/Aulas1.dir/Ponteiros/ponteiros2.0.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Aulas1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\Aulas1.dir\
+  TARGET_FILE = Aulas1.exe
+  TARGET_IMPLIB = libAulas1.dll.a
+  TARGET_PDB = Aulas1.pdb
 
 
 #############################################
@@ -114,6 +142,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build Aulas: phony Aulas.exe
 
+build Aulas1: phony Aulas1.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -122,7 +152,7 @@ build Aulas: phony Aulas.exe
 #############################################
 # Folder: D:/projetos/C/Aulas/cmake-build-debug
 
-build all: phony Aulas.exe
+build all: phony Aulas.exe Aulas1.exe
 
 # =============================================================================
 # Built-in targets

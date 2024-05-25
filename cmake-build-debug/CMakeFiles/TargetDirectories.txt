@@ -1,3 +1,4 @@
 D:/projetos/C/Aulas/cmake-build-debug/CMakeFiles/Aulas.dir
+D:/projetos/C/Aulas/cmake-build-debug/CMakeFiles/Aulas1.dir
 D:/projetos/C/Aulas/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/projetos/C/Aulas/cmake-build-debug/CMakeFiles/rebuild_cache.dir
