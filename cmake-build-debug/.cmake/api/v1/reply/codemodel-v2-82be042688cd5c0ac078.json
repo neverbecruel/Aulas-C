@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Aulas",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Ponteiro1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ponteiro1-Debug-1d0a324e17e70d5da64b.json",
+					"name" : "Ponteiro1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ponteiro2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ponteiro2-Debug-f724f7b20dbde0b79e83.json",
+					"name" : "Ponteiro2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ponteiro3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ponteiro3-Debug-cc8717f3ed447706305b.json",
+					"name" : "Ponteiro3",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/projetos/C/Aulas/cmake-build-debug",
+		"source" : "D:/projetos/C/Aulas"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

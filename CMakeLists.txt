@@ -12,3 +12,6 @@ add_executable(Ponteiro1
 add_executable(Ponteiro2
         Ponteiros/ponteiros2.0.c
 )
+add_executable(Ponteiro3
+        Ponteiros/ponteiros3.0.c
+)
