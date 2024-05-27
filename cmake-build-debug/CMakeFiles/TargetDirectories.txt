@@ -1,5 +1,0 @@
-D:/projetos/C/Aulas/cmake-build-debug/CMakeFiles/Ponteiro1.dir
-D:/projetos/C/Aulas/cmake-build-debug/CMakeFiles/Ponteiro2.dir
-D:/projetos/C/Aulas/cmake-build-debug/CMakeFiles/Ponteiro3.dir
-D:/projetos/C/Aulas/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/projetos/C/Aulas/cmake-build-debug/CMakeFiles/rebuild_cache.dir

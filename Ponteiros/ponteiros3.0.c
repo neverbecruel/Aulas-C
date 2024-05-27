@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <stdlib.h>
 //---------------------------------------------------------------- %d/%i => inteiros
@@ -30,14 +29,14 @@ Funções de alocação dinâmica:
         void* malloc(size_t size)
         "size_t size": Quantidade de bytes a ser alocada.
  */
-int main(){
+int main() {
 
     int n;
     printf("Digite a quantidade de elementos do array: \n");
     scanf("%d", &n);
 
     // Aloca a memoria para um array de n elemtentos
-    int *arr = (int*)malloc(n*sizeof(int));
+    int *arr = (int *) malloc(n * sizeof(int));
     /*malloc(n * sizeof(int))
 
         -malloc é=> função que aloca um bloco de memória de tamanho especificado em bytes.
@@ -59,17 +58,17 @@ int main(){
 */
 
     //Exemplo de uso
-    if (arr == NULL){ // Verifica se a alocação foi bem-sucedida
+    if (arr == NULL) { // Verifica se a alocação foi bem-sucedida
         printf("Erro ao alocar memória\n");
         return 1; // Código de erro 1
     }
     int i;
     int item;
-    for (i=0; i<n; i++){
-        arr[i] = i+1;
+    for (i = 0; i < n; i++) {
+        arr[i] = i + 1;
     }
     printf("Elementos do vetor.\n");
-    for (item=0; item<n; item++) {
+    for (item = 0; item < n; item++) {
         printf("%d ", arr[item]);
     }
 
