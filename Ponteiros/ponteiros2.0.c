@@ -52,9 +52,9 @@ int main() {
      *CONCLUSÃO
      * Ponteiros são uma ferramenta poderosa que permite o acesso e manipulação direta de endereço de memória. São
      * usados para:
-     *  Trabalhar com arrays e strings,;
-     *  Passar parâmetros para funções de forma eficiente;
-     *  Entre outros...
+     *      Trabalhar com arrays e strings,;
+     *      Passar parâmetros para funções de forma eficiente;
+     *      Entre outros...
      */
 
 
