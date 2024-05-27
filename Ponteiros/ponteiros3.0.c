@@ -15,9 +15,10 @@ sabemos o tamanho final.
 
 Funções de alocação dinâmica:
         1. malloc()
-        2. calloc()
-        3. realloc()
-        4. free()
+        2. free()
+        3. calloc()
+        4. realloc()
+
 */
 
 //MALLOC
@@ -57,6 +58,26 @@ int main(){
     retorna um ponteiro genérico.
 */
 
+    //Exemplo de uso
+    if (arr == NULL){ // Verifica se a alocação foi bem-sucedida
+        printf("Erro ao alocar memória\n");
+        return 1; // Código de erro 1
+    }
+    int i;
+    int item;
+    for (i=0; i<n; i++){
+        arr[i] = i+1;
+    }
+    printf("Elementos do vetor.\n");
+    for (item=0; item<n; item++) {
+        printf("%d ", arr[item]);
+    }
+
+    free(arr);// Libera a memória alocada
+    /* A função free() libera a memória que fora alocada com malloc(), calloc() ou realloc.
+       Isso é importante para evitar vazamentos de memória que podem ocorrer caso a memória não seja
+    alocada corretamente
+     */
 
 
     return 0;
