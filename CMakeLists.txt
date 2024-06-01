@@ -5,19 +5,23 @@ set(CMAKE_C_STANDARD 11)
 
 include_directories(.)
 include_directories(Ponteiros)
+include_directories(Stacks)
 
 add_executable(Ponteiro1
         Ponteiros/ponteiros1.0.c
-        Ponteiros/ponteiros3.0.c
-        Ponteiros/ponteiros3.1.c
+
 )
 add_executable(Ponteiro2
         Ponteiros/ponteiros2.0.c
-        Ponteiros/ponteiros3.0.c
+
 )
 add_executable(Ponteiro3
-        Ponteiros/ponteiros3.0.c
         Ponteiros/ponteiros3.0.c
 )
 add_executable(ponteiro3.1
         Ponteiros/ponteiros3.1.c)
+
+add_executable(Pilhas1.0
+        Stacks/Pilhas1.0.c
+        Stacks/Pilhas1.0.c
+)
