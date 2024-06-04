@@ -21,6 +21,9 @@ add_executable(Ponteiro3
 add_executable(ponteiro3.1
         Ponteiros/ponteiros3.1.c)
 
+add_executable(TESTES
+        Ponteiros/teste.c)
+
 add_executable(Pilhas1.0
         Stacks/Pilhas1.0.c
         Stacks/Pilhas1.0.c
