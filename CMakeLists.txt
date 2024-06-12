@@ -27,4 +27,9 @@ add_executable(TESTES
 add_executable(Pilhas1.0
         Stacks/Pilhas1.0.c
         Stacks/Pilhas1.0.c
+        Queues/queues1.0.c
+)
+
+add_executable(Queues1
+        Queues/queues1.0.c
 )

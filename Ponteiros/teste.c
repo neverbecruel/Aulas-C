@@ -1,19 +1,27 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int print(int num, int somador) {
-    int total = num + somador;
-    return total;
+int main() {
 
-}
+    // definindo uma variável
+    int a = 5;
 
-int main(){
-    /*int vetor[10] = {1,2,3,4,5,6,7,8,9,10};
-    printf("1 ->%x\n", &vetor[0]); // 15e7ff6f0
-    printf("2 ->%x\n", &vetor);// 25e7ff6f0
-    printf("3 ->%x", vetor);// 35e7ff6f0*/
-    int d = 0;
-    print(d);
-    printf("Fora da funcao ->%x\n", d);
+    // imprimindo a variável "a"
+    printf("%d\n", a);
+
+    // concatenando e imprimindo
+    printf("O valor da var a eh: %d ", a);
+
+    // pulando linhas
+    printf("\n");
+
+    // imprimindo
+    printf("uhuu\n");
+
+    // pedindo ao usuário para pressionar uma tecla antes de sair
+    printf("Pressione Enter para sair...");
 
 
+
+    return 0;
 }

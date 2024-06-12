@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-//---------------------------------------------------------------- %d/%i => inteiros
+//------------------------------------------------------------- %d/%i => inteiros
 //---------------------------------------------------------------- %p => endereço de memória
 //---------------------------------------------------------------- %s => Strigs -cadeias de caracteres
 //---------------------------------------------------------------- %f => números com ponto flutuantes -floats
@@ -15,7 +15,7 @@
 /*
     Pilhas LIFO são uma estrutura de dados na qual novos itens podem ser colocado ou retirados de uma --apenas uma--
  das suas extremidades. Essa extremidade chamamos de TOPO.
-  */
+*/
 
 struct pilha {
     int itens[STACKSIZE]; // Para criar a pilha LIFO, iniciamos um vetor que servirá de casa para a pilha.
@@ -54,7 +54,7 @@ int pop(struct pilha *ps) { // Com essa função, excluimos o ULTIMO elemento da
 
 int showLast(struct pilha *ps) { // Com essa função, retornamos o ultimo elemento da pilha.
     if (!isEmpty(ps)) {
-        return ps->itens[ps->top]; // Retornamos o valor no vetor cujo índice corresponde a ps->top
+        return ps->itens[ps->top]; // Retornamos o valor no vetor cujo índice corresponde a ps->last
     } else {
         printf("A pilha está vazia.\n");
         return -1;
@@ -64,7 +64,7 @@ int showLast(struct pilha *ps) { // Com essa função, retornamos o ultimo eleme
 
 int main() {
     struct pilha ps; // Declaramos uma pilha LIFO
-    ps.top = -1; // Definimos -1 como valor inicial para ps.top
+    ps.top = -1; // Definimos -1 como valor inicial para ps.last
 
     pop(&ps); // RETORNO: A pilha está vazia.
     push(22, &ps); // RETORNO: O número 22 foi adicionado com sucesso.
