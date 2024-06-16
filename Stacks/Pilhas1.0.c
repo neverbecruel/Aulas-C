@@ -45,7 +45,7 @@ int push(int x, struct pilha *ps) { // Com essa função, inserimos um item na p
 
 int pop(struct pilha *ps) { // Com essa função, excluimos o ULTIMO elemento da pilha LIFO
     if (!isEmpty(ps)) { // Checamos se a pilha está vazia.
-        return ps->itens[ps->top--]; // Se não retornamos o valor do ultimo elemento e decrementamos o valor do topo.
+        return ps->itens[ps->top--]; // Se não, retornamos o valor do ultimo elemento e decrementamos o valor do topo.
     } else {
         printf("A pilha está vazia.\n");
         return -1;
