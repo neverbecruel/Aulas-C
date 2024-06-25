@@ -5,7 +5,7 @@ set(CMAKE_C_STANDARD 11)
 
 include_directories(.)
 include_directories(Ponteiros)
-include_directories(Stacks)
+include_directories(Pilhas)
 
 add_executable(Ponteiro1
         Ponteiros/ponteiros1.0.c
@@ -25,11 +25,15 @@ add_executable(TESTES
         Ponteiros/teste.c)
 
 add_executable(Pilhas1.0
-        Stacks/Pilhas1.0.c
-        Stacks/Pilhas1.0.c
-        Queues/queues1.0.c
+        Pilhas/Pilhas1.0.c
+        Pilhas/Pilhas1.0.c
+        Filas/queues1.0.c
 )
 
 add_executable(Queues1
-        Queues/queues1.0.c
+        Filas/queues1.0.c
+)
+
+add_executable(ListasEncadeadas
+        ListasEncadeadas/ListaEncadeada.c
 )
